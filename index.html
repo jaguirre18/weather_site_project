@@ -1,11 +1,83 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE-edge" />
-    <meta name="view port" content="Width=device-width, intial-scale=1.0" />
-    <title>My Weather App</title>
-  </head>
+  <head></head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE-edge" />
+  <meta name="view port" content="Width=device-width, intial-scale=1.0" />
+  <title>My Weather App</title>
+  <section class="Weather-section">
+        <h1>LATEST WEATHER</h1>
+        <div class="archive">
+            <article class="article">
+                <section id="stats">
+                    <div class="summary">
+                        <h2>West Wendover Weather</h2>
+                        <h3 id="five-city"></h3>
+                        <p><strong>Currently: </strong><span id="current-desc"></span> Partly Cloudy</p>
+                        <p>
+                            Tempature:
+                            <span id="current-temp"></span> 54°F
+                        </p>
+                        <p>Wind chill: <span id="current-windc=Chill"></span> 39°F</p>
+                        <p> Humidity: <span id="current-humid"></span> 32%</p>
+                        <p>Wind Speed: <span id="Current-windSpeed"></span> NW 12mph</p>
+                    </div>
+                    </section>
+                    <div>
+                        <img src="images/WestWendover_Featured.jpg" alt="West wendover"/>
+                    </div>
+                    </article>
+                    <!--5 day forecast -->
+                    <div class="article-five-day">
+                    <article id="forecastcontainer">
+                        <h2 id="forecastTitle">5 Day Forecast</h2>
+                        <h3 id="city"></h3>
+                        <div class="flex">
+                            <div class="flex-col">
+        <span id="dayTitle1" class="col-head"></span>
+        <img id="weatherIcon1" class="weatherIcon" />
+        <span class="temp-data">
+            <p><strong> Tuesday</strong></p>
+          <span id="data1"></span> <span> 50°F</span>
+        </span>
+      </div>
+      <img src="images/Sunny.jpg">
+      <div class="flex-col">
+        <span id="dayTitle2" class="col-head"></span>
+        <img id="weatherIcon2" class="weatherIcon" />
+        <span class="temp-data">
+            <p><strong>Wednesday</strong></p>
+          <span id="data2"></span> <span> 54°F</span>
+        </span>
+      </div>
+      <img src="images/Sunny.jpg">
+      <div class="flex-col">
+        <span id="dayTitle3" class="col-head"></span>
+        <img id="weatherIcon3" class="weatherIcon" />
+        <span class="temp-data">
+            <p><strong> Thursday</strong></p>
+          <span id="data3"></span> <span> 56°F</span>
+        </span>
+      </div>
+      <img src="images/partlyCloudy.jpg">
+      <div class="flex-col">
+        <span id="dayTitle4" class="col-head"></span>
+        <img id="weatherIcon4" class="weatherIcon" />
+        <span class="temp-data">
+            <p><strong>Friday</strong></p>
+          <span id="data4"></span> <span> 59°F</span>
+        </span>
+      </div>
+      <img src="images/partlyCloudy.jpg">
+      <div class="flex-col">
+        <span id="dayTitle5" class="col-head"></span>
+        <img id="weatherIcon5" class="weatherIcon" />
+        <span class="temp-data">
+            <p><strong>Saturday</strong></p>
+          <span id="data5"></span> <span> 63°F</span>
+        </span>
+      </div>
+      <img src="images/Sunny.jpg">
   <body>
     <header></header>
     <nav>
@@ -16,44 +88,7 @@
         <li style="float: right">About</li>
       </ul>
     </nav>
-    <main>
-      <div class="flex-col">
-        <span id="dayTitle1" class="col-head"></span>
-        <img id="weatherIcon1" class="weatherIcon" />
-        <span class="temp-data">
-          <span id="data1"></span> <span>°F</span>
-        </span>
-      </div>
-      <div class="flex-col">
-        <span id="dayTitle2" class="col-head"></span>
-        <img id="weatherIcon2" class="weatherIcon" />
-        <span class="temp-data">
-          <span id="data2"></span> <span>°F</span>
-        </span>
-      </div>
-      <div class="flex-col">
-        <span id="dayTitle3" class="col-head"></span>
-        <img id="weatherIcon3" class="weatherIcon" />
-        <span class="temp-data">
-          <span id="data3"></span> <span>°F</span>
-        </span>
-      </div>
-      <div class="flex-col">
-        <span id="dayTitle4" class="col-head"></span>
-        <img id="weatherIcon4" class="weatherIcon" />
-        <span class="temp-data">
-          <span id="data4"></span> <span>°F</span>
-        </span>
-      </div>
-      <img src="images/partlyCloudy.jpg" />
-      <div class="flex-col">
-        <span id="dayTitle5" class="col-head"></span>
-        <img id="weatherIcon5" class="weatherIcon" />
-        <span class="temp-data">
-          <span id="data5"></span> <span>°F</span>
-        </span>
-      </div>
-    </main>
+    <main></main>
     <footer></footer>
   </body>
 </html>
